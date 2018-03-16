@@ -1,0 +1,14 @@
+A4 Requirements
+In this assignment, you are required to design and implement an online interactive visualization for a chosen dataset.
+要求尽可能多用所学的设计方法和交互方式，来完成你的作品。你的在线可视化作品必须至少包括以下几项：
+1. 有动态交互的浏览数据功能（interaction）
+2. 三个或以上的视图（multiple views）
+3. 视图间存在关联 (linked views)
+除此之外，你还需要提交一份作业报告，包含以下几项：
+1. 数据描述和分析。数据的维度、规模、特性，对这个数据可能开展的分析点包括哪些。
+2. 设计宗旨和设计过程。从数据分析的角度出发，做这个设计（交互）你的关注点是什么，选择这个设计，好处是什么，难点是什么。
+3. 可视化结果描述。给出你的可视化作品说明，并说说从这个作品中你的发现。整个过程中你的感受。
+
+Data Set : countriesData.csv
+Data Description:  国家数据描述.pdf 
+                   data_definition.csv

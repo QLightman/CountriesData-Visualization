@@ -1,0 +1,118 @@
+.active {
+    fill: steelblue;
+}
+
+.input {
+    position: fixed;
+    left: 150px;
+    top: 0;
+    width: 200px;
+    height: 30px;
+    background: #ddd;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: .5em;
+}
+
+.map {
+    position: fixed;
+    left: 500px;
+    top: 400px;
+}
+
+.button {
+    position: fixed;
+    left: 1200px;
+    top: 0;
+    background-color: black;
+    opacity: 0.8;
+    border: 5px;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: .5em;
+    cursor: pointer;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.chosen-container.chosen-results {
+    max-height: 100 px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.viewport,
+.viewport2,
+.viewport3,
+.viewport4 {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    overflow-y: auto;
+    width: 320px;
+    height: 300px;
+    background-color: "white";
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 6px 2px rgba(0, 0, 0, .25);
+}
+
+.viewport2 {
+    left: 420px;
+}
+
+.viewport3 {
+    left: 750px;
+}
+
+.viewport4 {
+    left: 1080px;
+}
+
+.scroll-svg {}
+
+.tooptip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: simsun;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #111010;
+    border-radius: 5px;
+    border-color: #FAFAF4;
+}
+
+path {
+    stroke: black;
+    stroke-width: 0.6px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
